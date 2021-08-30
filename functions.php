@@ -6,10 +6,15 @@
 switch ($oper) {
   case "add":
     $sum = $num1 + $num2;
-    
     break;
   case "sub":
     $sum = $num1 - $num2;
+    break;
+  case "mul":
+    $sum = $num1 * $num2;
+    break;
+  case "mul":
+    $sum = $num1 / $num2;
     break;
   default:
     $sum = "Error";

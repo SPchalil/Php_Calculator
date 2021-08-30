@@ -16,6 +16,8 @@
                 <label>Choose operation!</label>
                 <option value = "add">Add</option>
                 <option value = "sub">Substract</option>
+                <option value = "mul">Add</option>
+                <option value = "div">Substract</option>
             </select>
             <input type="text" name="num2" placeholder="Number 2">
             <button type = "submit"> Calculate!</button>
